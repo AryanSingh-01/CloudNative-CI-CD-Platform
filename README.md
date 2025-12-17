@@ -1,8 +1,11 @@
-# EndToEnd-DevOps-Pipeline
+# CloudNative-CI-CD-Platform
 
 An end-to-end DevOps project demonstrating how a production-style web
 application can be built, containerized, automated, and deployed on AWS
 using modern DevOps practices.
+
+[![Phase](https://img.shields.io/badge/Phase-2%20App%20%26%20Docker-blue)]()
+[![App](https://img.shields.io/badge/App-In%20Progress-yellow)]()
 
 ## 🎯 Project Goal
 To design and implement a complete CI/CD pipeline for a web application,
