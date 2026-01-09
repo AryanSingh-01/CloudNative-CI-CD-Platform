@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-APP_VERSION = "v1.0.0 - Demo Redeploy"
+APP_VERSION = "v1.0.0"
 
 @app.route("/")
 def home():
