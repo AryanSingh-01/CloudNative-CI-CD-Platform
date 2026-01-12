@@ -54,7 +54,7 @@ A short demo video showing:
 * pipeline execution in GitHub Actions
 * the updated application running on EC2
 
-▶️ **Demo video:** *add link here*
+▶️ **Demo video:** [Watch demo](https://drive.google.com/file/d/1oyFkJROeuuMQSFE7kVct7cRGWOc7Lb6i/view)
 
 
 
