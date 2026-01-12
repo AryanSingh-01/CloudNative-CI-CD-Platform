@@ -42,7 +42,9 @@ On every push to the `main` branch:
 4. The EC2 instance pulls the latest image
 5. The running container is replaced
 
-![CI/CD Pipeline Run](docs/images/ci-cd-pipeline.png)
+Here's the image of the pipeline for the demo.
+
+<img src="docs/ci-cd-pipeline.png" alt="CI/CD Pipeline" style="border:1px solid #343434; padding:4px;">
 
 
 
