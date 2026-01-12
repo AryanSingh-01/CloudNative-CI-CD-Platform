@@ -44,7 +44,13 @@ On every push to the `main` branch:
 
 Here's the image of the pipeline for the demo.
 
-<img src="docs/ci-cd-pipeline.png" alt="CI/CD Pipeline" style="border:1px solid #343434; padding:4px;">
+<table>
+  <tr>
+    <td>
+      <img src="docs/ci-cd-pipeline.png" alt="CI/CD Pipeline">
+    </td>
+  </tr>
+</table>
 
 
 
