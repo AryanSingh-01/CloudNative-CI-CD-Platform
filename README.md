@@ -6,29 +6,26 @@
 This repository contains a small Flask application deployed using an automated CI/CD pipeline. The goal is to show how a code change can move from a Git commit to a running application on AWS with no manual steps on the server.
 
 The application itself is intentionally simple so the focus stays on the deployment workflow.
-
-
-
 ## Architecture
+```mermaid
+graph TD
+    A["Developer Commit<br/>GitHub main branch"] --> B["GitHub Actions<br/>docker-build.yml"]
+    B --> C["Docker Build & Tag<br/>Flask app/ source"]
+    C --> D["Push to Amazon ECR<br/>Docker Registry"]
+    D --> E["AWS EC2 Instance<br/>SSH Pull Latest"]
+    E --> F["Deploy Container<br/>docker run"]
+    F --> G["Flask App Live<br/>Endpoints: /health"]
 
+    style A fill:#f9f
+    style B fill:#28a745
+    style C fill:#2496ed
+    style D fill:#ff9900
+    style E fill:#ff9900
+    style F fill:#17a2b8
+    style G fill:#6f42c1
+    
 ```
-Developer Commit
-      |
-      v
-GitHub Actions
-      |
-      v
-Docker Image Build
-      |
-      v
-Amazon ECR
-      |
-      v
-AWS EC2 (Docker)
-      |
-      v
-Running Application
-```
+
 
 
 
